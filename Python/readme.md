@@ -1,16 +1,39 @@
-# Image Analysis:
-  ## Basic Image Analysis
-  - OpenCV
-  - Load/Show image
-  - Color conversion
-  - Histograms
-  - Elemental operations
-  - Blending
-  - Border detection
-  - Face detection
-  - Webcam proccesing
-
+## Basic Image Analysis
+- **LOAD/SHOW IMAGE**
+- **COLOR CONVERSION**
+- **HISTOGRAMS**
+    - Calculate histograms
+    - Equalize histograms
+- **ELEMENTAL OPERATIONS**
+    - Calculate Brightness and Contrast
+    - Intensity transformations
+    - Color space conversions
+    - Geometric transformations
+    - Opperations with two images
+- **BORDER DETECTION**
+    - Sobel (image, color depth, derivative orders x, y, kernel size)
+    - Laplacian (image, color depth)
+    - Canny
+- **IMAGE SEGMENTATION**
+    - Thresholding: manual and OTSU
+    - Segmentation through color conversions
+    - Semantic Segmentation With Edge Detection (Canny)
+    - Region growing
+- **SHAPE DESCRIPTORS**
+- **TEXTURE DESCRIPTORS**
+    - Matrix of coocurrence (GLCM)
+    - SIFT algorithm
+    - Feature matching
+    - Histogram of Oriented Gradients
+    - Local Binary Patterns (LBP)
+- **OTHER**: 
+    - Mark points on a Image with the mouse
+    - Access the Webcam 
+    - Face detection
+    
 # FaceDetection
+- MediaPipe library
+- Caffe (DL)
 
 # FaceMesh
 
