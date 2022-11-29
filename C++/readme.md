@@ -38,7 +38,7 @@
 - orbBF
 - HOGSVM
 
-*POINT CLOUDS (PCL)**
+**POINT CLOUDS (PCL)**
 - PCL basics
 - 3D-2D projection
 - Object Detection
