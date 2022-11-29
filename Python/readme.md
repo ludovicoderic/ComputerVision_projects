@@ -1,35 +1,80 @@
-## Basic Image Analysis
-- **LOAD/SHOW IMAGE**
-- **COLOR CONVERSION**
-- **HISTOGRAMS**
-    - Calculate histograms
-    - Equalize histograms
-- **ELEMENTAL OPERATIONS**
-    - Calculate Brightness and Contrast
-    - Intensity transformations
-    - Color space conversions
-    - Geometric transformations
-    - Opperations with two images
-- **BORDER DETECTION**
+## Sumary
+
+**BASICS**
+- Load/show Image
+- Save Image
+- Histograms
+    - Calculate Histograms
+    - Equalize Histograms
+- Brightness And Contrast
+- Color Space Conversion
+
+**IMAGE PROCESSING:TRANSFORMATIONS**
+- Punctual transformations:
+    - AND, OR, XOR, NOT
+    - addition, subtraction, multiplication, division
+    - blending
+   
+- Global transformations:
+    - Fourier transform
+- Geometric transformations
+- Neighborhood transformations
+    - Convolution filters
+    - Median fiters
+- Morphological transformations
+    - Erosion and dilation
+    - Opening, closing and Top-Hat
+
+**IMAGE PROCESSING:FILTERING AND DETECTION OF EDGES, LINES, ISOLATED POINTS AND CORNERS**
+- BORDER DETECTION
     - Sobel (image, color depth, derivative orders x, y, kernel size)
     - Laplacian (image, color depth)
     - Canny
-- **IMAGE SEGMENTATION**
-    - Thresholding: manual and OTSU
-    - Segmentation through color conversions
-    - Semantic Segmentation With Edge Detection (Canny)
-    - Region growing
-- **SHAPE DESCRIPTORS**
-- **TEXTURE DESCRIPTORS**
+- LINE DETECTION
+- DETECTION OF ISOLATED POINTS
+- CORNER DETECTION: Harris
+
+**IMAGE PROCESSING: SEGMENTATION**
+- Umbralize (thresholding): manual and OTSU
+- Segmentation through color conversions
+- Semantic Segmentation With Edge Detection (Canny)
+- Region growing
+- Clustering
+- Graph-based methods
+- Saliency methods
+
+**IMAGE FEATURES**
+- SHAPE DESCRIPTORS
+    - Moments
+    - Hu moments
+    - Freeman chains
+    - Descriptor Shape Context (SC)
+- TEXTURE DESCRIPTORS
     - Matrix of coocurrence (GLCM)
-    - SIFT algorithm
-    - Feature matching
-    - Histogram of Oriented Gradients
+    - Histogram of Oriented Gradients (HOG)
     - Local Binary Patterns (LBP)
-- **OTHER**: 
-    - Mark points on a Image with the mouse
-    - Access the Webcam 
-    - Face detection
+    - local characteristics
+        - Detector: MSER
+        - Descriptor: ORB
+    - Feature matching
+
+**IMAGE RECOGNITION**
+- Mark points on a Image with the mouse
+- Access the Webcam 
+- Search by similarity
+    - binary descriptors
+    - Local descriptors based on points of interest
+        - SIFT
+        - SURF
+- Feature matching
+- Dimensionality reduction
+    - Bag of Words (BoW)
+    - PCA y LDA
+- Face detection
+    - Mediapipe library
+    - Caffe DL
+    - HOG SVM
+    
     
 # FaceDetection
 - MediaPipe library
