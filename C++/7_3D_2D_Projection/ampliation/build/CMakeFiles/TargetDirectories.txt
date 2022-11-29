@@ -1,0 +1,5 @@
+/home/alvarosr4/Escritorio/Percepcion/practica1/mia/ampliacion/build/CMakeFiles/rebuild_cache.dir
+/home/alvarosr4/Escritorio/Percepcion/practica1/mia/ampliacion/build/CMakeFiles/edit_cache.dir
+/home/alvarosr4/Escritorio/Percepcion/practica1/mia/ampliacion/build/CMakeFiles/projectionSerpiente.dir
+/home/alvarosr4/Escritorio/Percepcion/practica1/mia/ampliacion/build/CMakeFiles/camera_calibration.dir
+/home/alvarosr4/Escritorio/Percepcion/practica1/mia/ampliacion/build/CMakeFiles/projection.dir
